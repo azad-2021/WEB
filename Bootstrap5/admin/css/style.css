@@ -1,11 +1,7 @@
 body {
-  margin: 0px;
-  /*margin-bottom: 100px;
-  margin-right: 150px;
-  margin-left: 80px;
-
-*/
-
+  font-family: Georgia, serif;
+  background: #f0f0f0;
+  color: black;
 }
 
 .navbar-brand
@@ -19,9 +15,10 @@ body {
 }
 
 .navbar {
-  font-family: sans-serif;
+  font-family: Georgia, serif;
   margin: 0px;
-  font-size: 18px;
+  margin-bottom: 50px;
+  font-size: 50px;
 }
 
 .navbar-toggler {
@@ -47,9 +44,21 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   color: black;
   white-space: nowrap;
   transition: 0.3s;
+}
+
+.table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+
+div{
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
