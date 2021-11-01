@@ -1,0 +1,81 @@
+body {
+  font-family: Georgia, serif;
+  background: #f0f0f0;
+  color: black;
+}
+
+.navbar-brand
+{
+  font-family: Georgia, serif;
+  color:grey;
+  font-size: 20px;
+  
+}
+
+.navbar{
+    width:100%;
+  position:fixed;
+    height:80px;
+    color:#fff;
+z-index: 1;
+}
+
+#navbar {
+  font-family: Georgia, serif;
+  margin: 0px;
+  font-size: 50px;
+
+}
+
+.navbar-toggler {
+    border-color: #DDD;
+    float: right;
+}
+
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+
+.navbar a, .navbar a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  white-space: nowrap;
+  transition: 0.3s;
+
+}
+
+.table {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+
+}
+
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+
+.slider
+{
+  position:relative;
+  z-index:1;
+}
